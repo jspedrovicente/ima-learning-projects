@@ -1,0 +1,79 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(233, 231, 231);
+}
+.tinder-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navegation{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 12px 0;
+}
+.navegation i{
+    font-size: 1.5rem;
+}
+.fire i{
+    color: rgb(238, 88, 88);
+
+}
+.message, .profile{
+    color: rgb(201, 192, 192);
+}
+.main{
+    background: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80) center center/cover;
+    width: 98vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0px 25px;
+    color: white;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 17px;
+    font-size: 2rem;
+    
+}
+.name{
+    margin-right: 10px;
+    font-weight: bold;
+}
+.main p{
+    margin: 5px 17px 15px;
+    font-size: 1.3rem;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.5rem;
+}
+.button{
+    background-color: white;
+    border-radius: 40px;
+    margin: 0px 10px;
+}
+
+.superlike{
+    color: rgb(78, 78, 216);
+    padding: 10px;
+    align-self: center;
+}
+.cancel{
+    padding: 20px 22px;
+    color: rgb(238, 88, 88);
+}
+.like{
+    color: rgb(14, 212, 14);
+    padding: 20px;
+}
