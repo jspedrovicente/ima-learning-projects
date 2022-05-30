@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.page{
+    background-color: rgba(0, 0, 0, 0.808);
+    background: url(https://img.freepik.com/free-photo/people-emotions-lifestyle-leisure-beauty-concept-joyful-pretty-asian-woman-wireless-headphones-listening-music-dancing-excited-with-closed-eyes-happy-smile-listen-favorite-song_1258-58935.jpg?w=996&t=st=1653869430~exp=1653870030~hmac=da38548b6536bc0d8527c16b18340031ea7542f749a9ed4737f6ab9ddd4a74f6) center center/cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(41, 40, 40, 0.74);
+    align-items: center;
+    padding: 10px 0px;
+}
+nav .line{
+    border-right: 1px solid white;
+}
+.nav-main{
+    display: flex;
+    margin-right: 20px;
+}
+nav img{
+    width: 125px;
+    padding-left: 15px;
+}
+.nav-options{
+    padding: 0px 10px;
+}
+.center-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    font-size: 3rem;
+    margin: 0 0 10px;
+}
+.subtitle{
+    font-size: 1rem;
+    margin: 0 0 10px;
+}
+.button{
+    background-color: rgb(123, 218, 123);
+    margin: 5px 0 0 0;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-size: .8rem;
+}
+.button:hover{
+    background-color: rgb(139, 245, 139);
+}
+
+@media (max-width: 768px){
+    .nav-main{
+        display: block;
+        margin-right: 0px;
+    }
+    nav{
+        justify-content: space-around;
+    }
+    nav .line{
+        border-right: 0px;
+    }
+}
